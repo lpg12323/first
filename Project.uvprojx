@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>C:\stm32project\2-1 STM32工程模板\Start;.\User;.\Library</IncludePath>
+              <IncludePath>C:\stm32project\2-1 STM32工程模板\Start;.\User;.\Library;.\System</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -555,6 +555,21 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\User\stm32f10x_it.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>System</GroupName>
+          <Files>
+            <File>
+              <FileName>Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\System\Delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>Delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\System\Delay.h</FilePath>
             </File>
           </Files>
         </Group>

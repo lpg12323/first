@@ -1,0 +1,23 @@
+# Keil 生成的垃圾文件屏蔽清单
+*.o
+*.d
+*.crf
+*.dep
+*.htm
+*.lnp
+*.sct
+*.lst
+*.map
+*.axf
+*.iex
+*.build_log.htm
+*.bak
+*.uvguix.*
+JLinkLog.txt
+*.scvd
+
+# 屏蔽 Objects 和 Listings 文件夹（如果你有的话）
+Objects/
+Listings/
+
+# 只保留源码 (.c, .h) 和工程文件 (.uvprojx)

@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>C:\stm32project\2-1 STM32工程模板\Start;.\User;.\Library;.\System</IncludePath>
+              <IncludePath>C:\stm32project\2-1 STM32工程模板\Start;.\User;.\Library;.\System;.\Hardware</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -570,6 +570,31 @@
               <FileName>Delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\System\Delay.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>Buzzer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Buzzer.c</FilePath>
+            </File>
+            <File>
+              <FileName>Buzzer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Buzzer.h</FilePath>
+            </File>
+            <File>
+              <FileName>Door.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Door.c</FilePath>
+            </File>
+            <File>
+              <FileName>Door.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Door.h</FilePath>
             </File>
           </Files>
         </Group>
